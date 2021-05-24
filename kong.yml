@@ -1,0 +1,11 @@
+_format_version: "2.1"
+_transform: true
+
+services:
+- name: forex-serv
+  url: http://172.18.0.2:8098
+  
+  routes:
+  - name: forex
+    paths:
+    - /
