@@ -3,7 +3,7 @@ _transform: true
 
 services:
 - name: forex-serv
-  url: http://172.18.0.2:8098
+  url: http://172.30.134.234:8098/
   
   routes:
   - name: forex
